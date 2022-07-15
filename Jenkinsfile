@@ -1,7 +1,7 @@
 pipeline {
   agent any
    stages{
-    stages("Hello"){
+    stage("Hello"){
       steps{
          echo "This is multi branch pipeline"
       }
